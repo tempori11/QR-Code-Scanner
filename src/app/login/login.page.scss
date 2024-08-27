@@ -1,0 +1,35 @@
+.login_bt {
+  padding: 5%;
+  --background: #9d72cf;
+  color: black;
+}
+
+.login_card {
+  margin-top: 60%;
+}
+
+.container {
+  display: inline;
+  height: 900px;
+  background-color: Canvas;
+  color: CanvasTest;
+  color-scheme: dark;
+  /* background: orange;
+  background-color: orange; */
+}
+
+.login_title {
+  font-size: x-large;
+  font-weight: 1000;
+  padding-left: 37%;
+  color: black;
+}
+
+::ng-deep .login_card.md.hydrated {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, cyan, magenta);
+}
+
+ion-item.custom {
+  --background: none;
+}

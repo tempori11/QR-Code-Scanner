@@ -1,0 +1,41 @@
+<!-- src/app/pages/scan-completed/scan-completed.page.html -->
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Scan Completed</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<!-- <div class="container">
+  <h1>Scan Completed Successfully!</h1>
+  <p>Business Name: {{ businessName }}</p>
+  <p>User Name: {{ userName }}</p>
+  <p>Amount Transferred: {{ amount }}</p>
+</div> -->
+
+<ion-content>
+  <ion-card class="kart">
+    <div class="flex flex-col items-center justify-center h-screen">
+      <div
+        class="bg-card p-6 rounded-lg shadow-md shadow-lg-[var(--ring)] max-w-md"
+      >
+        <div class="bg-primary p-2 rounded-t-lg">
+          <h1 class="text-2xl text-white text-center fw-bold mb-2 mt-2">
+            Transaction Summary
+          </h1>
+        </div>
+
+        <div class="p-4">
+          <p class="fs-3 text-center mb-2 mt-2">
+            {{businessName}} has collected
+          </p>
+
+          <p class="fs-1 text-center text-primary fw-bold mb-2 mt-2">
+            {{amount}} TL
+          </p>
+
+          <p class="fs-3 text-center mb-2 mt-2">from {{userName}}.</p>
+        </div>
+      </div>
+    </div>
+  </ion-card>
+</ion-content>
